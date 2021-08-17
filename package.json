@@ -1,0 +1,27 @@
+{
+  "name": "ahj-ws-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "prestart": "yarn",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "author": "barsich",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "forever": "^3.0.4",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-multer": "^1.0.2",
+    "koa-router": "^10.0.0",
+    "koa-static": "^5.0.0",
+    "uuid": "^8.3.2",
+    "ws": "^8.0.0"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
